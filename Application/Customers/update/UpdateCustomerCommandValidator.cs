@@ -2,9 +2,9 @@
 
 namespace Application.Customers.Update;
 
-public class UpdateCustomerCommandValidator : AbstractValidator<UpdateCustomerCommand>
+public class UpdatePackageCommandValidator : AbstractValidator<UpdatePackageCommand>
 {
-    public UpdateCustomerCommandValidator()
+    public UpdatePackageCommandValidator()
     {
         RuleFor(r => r.Id)
            .NotEmpty();

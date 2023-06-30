@@ -2,9 +2,9 @@
 
 namespace Application.Customers.Delete;
 
-public class DeleteCustomerCommandValidator : AbstractValidator<DeleteCustomerCommand>
+public class DeletePackageCommandValidator : AbstractValidator<DeletePackageCommand>
 {
-    public DeleteCustomerCommandValidator()
+    public DeletePackageCommandValidator()
     {
         RuleFor(r => r.Id)
             .NotEmpty();

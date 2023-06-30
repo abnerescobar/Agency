@@ -4,4 +4,4 @@ using MediatR;
 
 namespace Application.Customers.GetAll;
 
-public record GetAllCustomersQuery() : IRequest<ErrorOr<IReadOnlyList<CustomerResponse>>>;
+public record GetAllPackagesQuery() : IRequest<ErrorOr<IReadOnlyList<CustomerResponse>>>;

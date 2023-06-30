@@ -6,16 +6,16 @@ using MediatR;
 namespace Application.Customers.GetAll;
 
 
-internal sealed class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, ErrorOr<IReadOnlyList<CustomerResponse>>>
+internal sealed class GetAllPackagesQueryHandler : IRequestHandler<GetAllPackagesQuery, ErrorOr<IReadOnlyList<CustomerResponse>>>
 {
     private readonly IcustomerRepository _customerRepository;
 
-    public GetAllCustomersQueryHandler(IcustomerRepository customerRepository)
+    public GetAllPackagesQueryHandler(IcustomerRepository customerRepository)
     {
         _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
     }
 
-    public async Task<ErrorOr<IReadOnlyList<CustomerResponse>>> Handle(GetAllCustomersQuery query, CancellationToken cancellationToken)
+    public async Task<ErrorOr<IReadOnlyList<CustomerResponse>>> Handle(GetAllPackagesQuery query, CancellationToken cancellationToken)
     {
         IReadOnlyList<Customer> customers = await _customerRepository.GetAll();
 

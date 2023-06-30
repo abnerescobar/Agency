@@ -26,3 +26,17 @@ D:\MODULO\Reserva\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\MODULO\Reserva\Domain\obj\Debug\net7.0\Domain.pdb
 D:\MODULO\Reserva\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
 D:\MODULO\Reserva\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\MODULO\Agency\Agency\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\MODULO\Agency\Agency\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\MODULO\Agency\Agency\Domain\bin\Debug\net7.0\Domain.dll
+D:\MODULO\Agency\Agency\Domain\bin\Debug\net7.0\Domain.pdb
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.dll
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.pdb
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+D:\MODULO\Agency\Agency\Domain\obj\Debug\net7.0\ref\Domain.dll

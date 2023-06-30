@@ -6,16 +6,16 @@ using MediatR;
 
 namespace Application.Customers.Update;
 
-internal sealed class UpdateCustomerCommandHandler : IRequestHandler<UpdateCustomerCommand, ErrorOr<Unit>>
+internal sealed class UpdatePackageCommandHandler : IRequestHandler<UpdatePackageCommand, ErrorOr<Unit>>
 {
     private readonly IcustomerRepository _customerRepository;
     private readonly IUnitOfWork _unitOfWork;
-    public UpdateCustomerCommandHandler(IcustomerRepository customerRepository, IUnitOfWork unitOfWork)
+    public UpdatePackageCommandHandler(IcustomerRepository customerRepository, IUnitOfWork unitOfWork)
     {
         _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
         _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
     }
-    public async Task<ErrorOr<Unit>> Handle(UpdateCustomerCommand command, CancellationToken cancellationToken)
+    public async Task<ErrorOr<Unit>> Handle(UpdatePackageCommand command, CancellationToken cancellationToken)
     {
         if (!await _customerRepository.ExistsAsync(new CustomerId(command.Id)))
         {

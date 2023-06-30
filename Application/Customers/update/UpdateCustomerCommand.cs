@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.Customers.Update;
 
-public record UpdateCustomerCommand(
+public record UpdatePackageCommand(
     Guid Id,
     string Name,
     string LastName,

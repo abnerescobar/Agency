@@ -745,11 +745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MODULO\\Reserva\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\MODULO\\Agency\\Agency\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\MODULO\\Reserva\\Application\\Application.csproj",
+      "projectPath": "D:\\MODULO\\Agency\\Agency\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\esaue\\.nuget\\packages\\",
-      "outputPath": "D:\\MODULO\\Reserva\\Application\\obj\\",
+      "outputPath": "D:\\MODULO\\Agency\\Agency\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -770,8 +770,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\MODULO\\Reserva\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\MODULO\\Reserva\\Domain\\Domain.csproj"
+            "D:\\MODULO\\Agency\\Agency\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\MODULO\\Agency\\Agency\\Domain\\Domain.csproj"
             }
           }
         }

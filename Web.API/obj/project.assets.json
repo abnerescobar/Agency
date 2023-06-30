@@ -4593,11 +4593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MODULO\\Reserva\\Web.API\\Web.API.csproj",
+      "projectUniqueName": "D:\\MODULO\\Agency\\Agency\\Web.API\\Web.API.csproj",
       "projectName": "Web.API",
-      "projectPath": "D:\\MODULO\\Reserva\\Web.API\\Web.API.csproj",
+      "projectPath": "D:\\MODULO\\Agency\\Agency\\Web.API\\Web.API.csproj",
       "packagesPath": "C:\\Users\\esaue\\.nuget\\packages\\",
-      "outputPath": "D:\\MODULO\\Reserva\\Web.API\\obj\\",
+      "outputPath": "D:\\MODULO\\Agency\\Agency\\Web.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4618,11 +4618,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\MODULO\\Reserva\\Application\\Application.csproj": {
-              "projectPath": "D:\\MODULO\\Reserva\\Application\\Application.csproj"
+            "D:\\MODULO\\Agency\\Agency\\Application\\Application.csproj": {
+              "projectPath": "D:\\MODULO\\Agency\\Agency\\Application\\Application.csproj"
             },
-            "D:\\MODULO\\Reserva\\Infrastucture\\Infrastucture.csproj": {
-              "projectPath": "D:\\MODULO\\Reserva\\Infrastucture\\Infrastucture.csproj"
+            "D:\\MODULO\\Agency\\Agency\\Infrastucture\\Infrastucture.csproj": {
+              "projectPath": "D:\\MODULO\\Agency\\Agency\\Infrastucture\\Infrastucture.csproj"
             }
           }
         }

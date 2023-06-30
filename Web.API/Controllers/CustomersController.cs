@@ -21,7 +21,7 @@ public class Customers : ApiController
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var customersResult = await _mediator.Send(new GetAllCustomersQuery());
+        var customersResult = await _mediator.Send(new GetAllPackagesQuery());
 
         return customersResult.Match(
             customers => Ok(customers),
@@ -52,7 +52,7 @@ public class Customers : ApiController
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(Guid id, [FromBody] UpdateCustomerCommand command)
+    public async Task<IActionResult> Update(Guid id, [FromBody] UpdatePackageCommand command)
     {
         if (command.Id != id)
         {
@@ -74,7 +74,7 @@ public class Customers : ApiController
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(Guid id)
     {
-        var deleteResult = await _mediator.Send(new DeleteCustomerCommand(id));
+        var deleteResult = await _mediator.Send(new DeletePackageCommand(id));
 
         return deleteResult.Match(
             customerId => NoContent(),

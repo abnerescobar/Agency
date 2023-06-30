@@ -5,16 +5,16 @@ using MediatR;
 
 namespace Application.Customers.Delete;
 
-internal sealed class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand, ErrorOr<Unit>>
+internal sealed class DeletePackageCommandHandler : IRequestHandler<DeletePackageCommand, ErrorOr<Unit>>
 {
     private readonly IcustomerRepository _customerRepository;
     private readonly IUnitOfWork _unitOfWork;
-    public DeleteCustomerCommandHandler(IcustomerRepository customerRepository, IUnitOfWork unitOfWork)
+    public DeletePackageCommandHandler(IcustomerRepository customerRepository, IUnitOfWork unitOfWork)
     {
         _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
         _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
     }
-    public async Task<ErrorOr<Unit>> Handle(DeleteCustomerCommand command, CancellationToken cancellationToken)
+    public async Task<ErrorOr<Unit>> Handle(DeletePackageCommand command, CancellationToken cancellationToken)
     {
         if (await _customerRepository.GetByIdAsync(new CustomerId(command.Id)) is not Customer customer)
         {
